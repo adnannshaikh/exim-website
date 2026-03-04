@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+/* ===== Maritime Corporate System ===== */
+
+:root {
+  --primary: #021024;        /* Deep foundation */
+  --accent: #1F4E79;         /* Controlled action blue */
+  --section: #F4F6F8;        /* Light neutral section */
+  --muted: #5C6773;          /* Professional text gray */
+}
+
+/* Background */
+.bg-primary { background-color: var(--primary); }
+.bg-accent { background-color: var(--accent); }
+.bg-section { background-color: var(--section); }
+
+/* Text */
+.text-primary { color: var(--primary); }
+.text-accent { color: var(--accent); }
+.text-muted { color: var(--muted); }
+
+/* Border */
+.border-accent { border-color: var(--accent); }
