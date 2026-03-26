@@ -1,3 +1,4 @@
+import WarehouseSlider from "../../components/WarehouseSlider";
 export default function AboutPage() {
   return (
     <main className="min-h-screen pt-40 bg-lightsection">
@@ -11,7 +12,7 @@ export default function AboutPage() {
           </h1>
 
           <p className="text-primary/60 text-lg max-w-3xl mx-auto leading-relaxed">
-            EXIMNAME operates as a structured agricultural export house,
+            Zash Organic Exports operates as a structured agricultural export house,
             connecting verified sourcing networks in India with global
             import partners through disciplined execution and compliance-driven processes.
           </p>
@@ -29,7 +30,7 @@ export default function AboutPage() {
             </h2>
 
             <p className="text-primary/70 leading-relaxed mb-6">
-              EXIMNAME is an Indian export enterprise specializing in
+              Zash Organic Exports is an Indian export enterprise specializing in
               agricultural commodities including grains, dry produce,
               fresh vegetables, and specialty items.
             </p>
@@ -41,9 +42,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="h-96 bg-primary/5 rounded-xl flex items-center justify-center text-primary/40 text-sm">
-            Company Infrastructure / Warehouse Image
-          </div>
+          <WarehouseSlider />
 
         </div>
       </section>
@@ -139,7 +138,7 @@ export default function AboutPage() {
       </section>
 
       {/* Logistics */}
-      <section className="px-6 py-24 bg-primary text-white">
+      {/* <section className="px-6 py-24 bg-primary text-white">
         <div className="max-w-6xl mx-auto">
 
           <h2 className="text-3xl font-semibold mb-8">
@@ -154,7 +153,7 @@ export default function AboutPage() {
           </p>
 
         </div>
-      </section>
+      </section> */}
 
     </main>
   );

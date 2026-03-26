@@ -11,9 +11,12 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "EXIMNAME | Global Agro Exports",
+  title: "ZACH ORGANIC EXPORTS",
   description:
     "Premium Indian agricultural commodities exported worldwide with compliance and reliability.",
+  icons: {
+    icon: "/ZASH_LOGO.png",
+  },
 };
 
 export default function RootLayout({ children }) {

@@ -305,10 +305,14 @@ import { AnimatePresence, motion } from "framer-motion";
 import Link from "next/link";
 
 const images = [
-  "/hero/Rice.jpeg",
-  "/hero/Pomogrante.jpeg",
-  "/hero/Onion.jpeg",
-  "/hero/Vanilla.jpeg",
+  "/hero/BLACK_PEPPER.png",
+  "/hero/GARLIC_POWDER.png",
+  "/hero/RICE_1121.png",
+  "/hero/GARLIC.png",
+  "/hero/GHOST_CHILLI.png",
+  "/hero/MAKAHANA.png",
+  "/hero/RICE_1171.png",
+  "/hero/VANILLA_SEED.png",
 ];
 
 export default function Hero() {
